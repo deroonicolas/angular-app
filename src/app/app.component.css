@@ -1,0 +1,20 @@
+article {
+  padding: 0;
+}
+
+.grid {
+  grid-template-columns: auto 5fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  background-size: contain;
+}
+
+.pseudo {
+  font-size: xx-large;
+  font-weight: 600;
+}

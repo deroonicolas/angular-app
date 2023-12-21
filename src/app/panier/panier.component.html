@@ -1,0 +1,6 @@
+<strong>Total panier : {{ totalPanier() | currency }} </strong>
+<ul>
+  <li *ngFor="let article of panier">
+    {{ article.designation}} : {{ article.prix | currency }}
+  </li>
+</ul>

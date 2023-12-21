@@ -1,0 +1,8 @@
+<article>
+  <header>{{ produit.designation }}</header>
+  <img [src]="produit.imgUrl">
+  <footer>
+    {{ produit.prix | currency }}
+    <button (click)="ajouterAuPanier()">Ajouter au panier</button>
+  </footer>
+</article>

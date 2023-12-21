@@ -1,0 +1,4 @@
+<div class="grid">
+  <app-fiche-produit (ajouterAuPanierEvt)="ajouterAuPanier($event)" *ngFor="let produit of listeProduits"
+    [produit]="produit"></app-fiche-produit>
+</div>

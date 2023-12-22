@@ -1,8 +1,25 @@
 <div class="container">
-  <h1>Enfant-parent et parent-enfant</h1>
+  <nav>
+    <ul>
+      <li>
+        <a routerLink="">Accueil</a>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <a routerLink="catalogue">Catalogue</a>
+      </li>
+      <li>
+        <a routerLink="panier">Panier</a>
+      </li>
+    </ul>
+  </nav>
+  <!--<h1>Enfant-parent et parent-enfant</h1>
   <h3>Liste des produits</h3>
   <app-panier [panier]="panier"></app-panier>
   <app-liste-produits (ajouterAuPanierEvt)="mettreAJourPanier($event)" [listeProduits]="produits"></app-liste-produits>
+  -->
+  <router-outlet></router-outlet>
 
   <h1>Pipes</h1>
 
